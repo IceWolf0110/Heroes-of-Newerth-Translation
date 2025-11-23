@@ -1,9 +1,9 @@
 client_default_name				UnnamedNewbie
 
-error_title						Error
-error_unknown					Unknown error.
-error_memory_not_enough			Your system memory is not enough!\nPlease quit other running applications and run Heroes of Newerth again.
-error_key_file_damaged			Some of your game key files are damaged!\nPlease re-install Heroes of Newerth.
+error_title						Lỗi
+error_unknown					Lỗi không xác định.
+error_memory_not_enough			Bộ nhớ hệ thống của bạn không đủ!\nHãy thoát bớt các app đang chạy và khởi động lại Heroes of Newerth.
+error_key_file_damaged			Vài file game quan trọng đã bị hỏng!\nVui lòng cài lại Heroes of Newerth.
 
 disconnect_auth_failed				The server could not authorize your account. Please try logging in again.
 disconnect_banned					You are no longer allowed to join this match because you exceeded the maximum allowed number of unsuccessful reconnection attempts.
