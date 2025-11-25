@@ -1,0 +1,173 @@
+key,value
+deny,{killer_color}{killer}^* denied {victim_color}{victim}^*!
+kill0,{killer_color}{killer}^* pwned {victim_color}{victim}^*'s head! for ^y{gold}^* gold!!
+kill1,{killer_color}{killer}^* pwned {victim_color}{victim}^*'s head! for ^y{gold}^* gold!!
+kill2,{killer_color}{killer}^* pwned {victim_color}{victim}^*'s head! for ^y{gold}^* gold!!
+kill3,{killer_color}{killer}^* pwned {victim_color}{victim}^*'s head! for ^y{gold}^* gold!!
+kill4,{killer_color}{killer}^* pwned {victim_color}{victim}^*'s head! for ^y{gold}^* gold!
+first_kill,{killer_color}{killer}^* has ^rbloodlust^*! (^y+{gold}^* gold!)
+first_kill_team,The {killer_color}{killer}^* have ^rbloodlust^*! (^y+{gold}^* gold is split!)
+killstreak0,{killer_color}{killer}^* is a ^082serial killer^*!
+killstreak1,{killer_color}{killer}^* is an ^204ultimate warrior^*!
+killstreak2,{killer_color}{killer}^* is ^808legendary^*!
+killstreak3,{killer_color}{killer}^* is on an ^840onslaught^*!
+killstreak4,{killer_color}{killer}^* is ^440savage sick^*!!
+killstreak5,{killer_color}{killer}^* is ^848dominating^*!!
+killstreak6,{killer_color}{killer}^* is a ^800CHAMPION OF NEWERTH^*!!!
+killstreak7,{killer_color}{killer}^* is on a ^840BLOODBATH^*! Someone KILL THEM!
+killstreak8,{killer_color}{killer}^* is ^860IMMORTAL^*!!
+streakend0,{killer} has just ended {victim}'s ^082serial killer^* streak for ^y{gold}^* gold!!
+streakend1,{killer} has just ended {victim}'s ^204ultimate warrior^* streak for ^y{gold}^* gold!!
+streakend2,{killer} has just ended {victim}'s ^808legendary^* streak for ^y{gold}^* gold!!
+streakend3,{killer} has just ended {victim}'s ^840onslaught^* streak for ^y{gold}^* gold!!
+streakend4,{killer} has just ended {victim}'s ^440savage sick^* streak for ^y{gold}^* gold!!
+streakend5,{killer} has just ended {victim}'s ^848domination^* streak for ^y{gold}^* gold!!
+streakend6,{killer} has just ended {victim}'s ^800CHAMPION OF NEWERTH^* streak for ^y{gold}^* gold!!
+streakend7,{killer} has just ended {victim}'s ^840BLOODBATH^* streak for ^y{gold}^* gold!!
+streakend8,{killer} has just ended {victim}'s ^860IMMORTAL^* streak for ^y{gold}^* gold!!
+multikill0,{killer} just got a ^008Double Tap^*!
+multikill1,{killer} just got a ^084Hat-trick^*!!!
+multikill2,{killer} just got a ^084Quad Kill^*!!!
+multikill3,{killer} has ^084ANNIHILATED^* their opponents!!!
+killtower,{killer} has destroyed a {ping_tile} tower.\n{reward} are awarded ^y{gold}g^*
+denytower,{player} has ^444denied^* a {ping_tile} tower!
+killmeleerax,The {victim}'s {ping_tile} ^724Melee^* Barracks has been destroyed
+killrangedrax,The {victim}'s {ping_tile} ^266Ranged^* Barracks has been destroyed
+killcourier,{victim}'s courier has been killed by {killer}!
+boughtwalkingcourier,{player_color}{player}^* has bought a walking courier.
+boughtflyingcourier,{player_color}{player}^* has bought a flying courier.
+ping_target,{player_color}{player_hero_name}^*: {mode}{unit_team_color}{unit_name}^* now!
+ping_ext_building_attack,{player_color}{player_hero_name}^*: Attack {unit_team_color}{tower_location}{tower_tier}^* at ^g{current_health}/{max_health}^* HP {backdoor_protected}
+ping_ext_building_defend,{player_color}{player_hero_name}^*: Defend {unit_team_color}{tower_location}{tower_tier}^* at ^g{current_health}/{max_health}^* HP {backdoor_protected}
+ping_ext_hero_attack,{player_color}{player_hero_name}^*: Attack {unit_team_color}{unit_name}^* at {ping_tile}
+ping_ext_hero_get_back,{player_color}{player_hero_name}^*: Get back from {unit_team_color}{unit_name}^* at {ping_tile}
+ping_ext_hero_missing,{player_color}{player_hero_name}^*: {unit_color}{unit_name}^* is missing
+ping_ext_hero_coming_to_gank,{player_color}{player_hero_name}^*: Coming to gank {unit_team_color}{unit_name}^* at {ping_tile}
+ping_ext_rune_present,{player_color}{player_hero_name}^*: ^g{unit_name}^* is available here
+ping_ext_ctf_pick_up_enemy_flag,{player_color}{player_hero_name}^*: Pick up the {unit_color}{unit_name}^* at {ping_tile}
+ping_ext_ctf_defend_ally_flag,{player_color}{player_hero_name}^*: Defend our {unit_color}{unit_name}^* at {ping_tile}
+ping_ext_assist_ally_hero,{player_color}{player_hero_name}^*: Assist our {unit_color}{unit_name}^* at {ping_tile}
+ping_ext_ground_ping,{player_color}{player_hero_name}^*: Alert! {ping_tile}!
+ping_ext_ground_get_back,{player_color}{player_hero_name}^*: Get back from {ping_tile}
+ping_ext_ground_danger_here,{player_color}{player_hero_name}^*: Danger at {ping_tile}
+ping_ext_ground_need_help_here,{player_color}{player_hero_name}^*: Need help at {ping_tile}
+ping_ext_ground_hero_missing,{player_color}{player_hero_name}^*: Hero missing from {ping_tile}
+ping_ext_ground_fight_here,{player_color}{player_hero_name}^*: Attack at {ping_tile}!
+ping_ext_ground_coming_to_help,{player_color}{player_hero_name}^*: Coming to help at {ping_tile}!
+ping_ext_alt_attribute,{player_color}{player_hero_name}^*: I have {attribute_value} {attribute_type}
+ping_ext_alt_health,{player_color}{player_hero_name}^*: I have ^g{param}^* health
+ping_ext_alt_mana,{player_color}{player_hero_name}^*: I have ^379{param}^* mana
+ping_ext_alt_buyback_enough_gold,{player_color}{player_hero_name}^*: I have ^y{param}^* gold and Can Buy Back
+ping_ext_alt_buyback_lack_of_gold,{player_color}{player_hero_name}^*: I have ^y{param}^* gold and Cannot Buy Back
+ping_ext_alt_selected_attribute,{player_color}{player_hero_name}^*: ^199{selected_hero_name}^* has {attribute_value} {attribute_type}
+ping_ext_alt_selected_health,{player_color}{player_hero_name}^*: ^199{selected_hero_name}^* has ^g{param}^* health
+ping_ext_alt_selected_mana,{player_color}{player_hero_name}^*: ^199{selected_hero_name}^* has ^379{param}^* mana
+ping_ext_alt_selected_inventory,{player_color}{player_hero_name}^*: ^199{selected_hero_name}^* has item ^667{item}^*
+ping_ext_alt_selected_enemy_health,{player_color}{player_hero_name}^*: ^943{selected_hero_name}^* has ^g{param}^* health
+ping_ext_alt_selected_enemy_mana,{player_color}{player_hero_name}^*: ^943{selected_hero_name}^* has ^379{param}^* mana
+ping_ext_alt_selected_enemy_inventory,{player_color}{player_hero_name}^*: ^943{selected_hero_name}^* has ^item 667{item}^*
+ping_ext_alt_scoreboard_inventory,{player_color}{player_hero_name}^*: {scoreboard_color}{scoreboard_hero_name}^* has ^667{item}^*
+ping_ext_alt_scoreboard_ability,{player_color}{player_hero_name}^*: {scoreboard_color}{scoreboard_hero_name}^* has ability ^667{ability}^*
+ping_ext_alt_hero,{player_color}{player_hero_name}^*: ^943{hero_name}^* (Level {level})
+ping_ext_alt_hero_dead,{player_color}{player_hero_name}^*: ^943{unit_name}^* (Level {level}) will respawn in ^y{time} seconds^*
+ping_ext_alt_hero_missing,{player_color}{player_hero_name}^*: ^943{unit_name}^* is missing
+ping_ext_alt_hero_afk,{player_color}{player_hero_name}^*: ^943{unit_name}^* (Level {param}) is AFK
+ping_ext_alt_shop_item_enough_gold,{player_color}{player_hero_name}^*: I can purchase ^667{item}^*
+ping_ext_alt_shop_item_lack_of_gold,{player_color}{player_hero_name}^*: I need ^y{param}g^* for ^667{item}^*
+ping_ext_alt_inventory_item_disabled,{player_color}{player_hero_name}^*: I cannot use ^667{item}^* now
+ping_ext_alt_inventory_item_cooldown,{player_color}{player_hero_name}^*: ^y{param}s^* before ^667{item}^* is ready
+ping_ext_alt_inventory_item_lack_of_mana,{player_color}{player_hero_name}^*: I need ^379{param}^* mana to use ^667{item}^*
+ping_ext_alt_inventory_item_owned,{player_color}{player_hero_name}^*: I have ^667{item}^*
+ping_ext_alt_inventory_item_ready,{player_color}{player_hero_name}^*: ^667{item}^* is ready
+ping_ext_alt_ability_not_learnt,{player_color}{player_hero_name}^*: I have not learned ^o{ability}^* yet
+ping_ext_alt_ability_disabled,{player_color}{player_hero_name}^*: I cannot use ^o{ability}^* now
+ping_ext_alt_ability_cooldown,{player_color}{player_hero_name}^*: ^y{param}s^* before ^o{ability}^* is ready
+ping_ext_alt_ability_lack_of_mana,{player_color}{player_hero_name}^*: I need ^379{param}^* mana to use ^o{ability}^*
+ping_ext_alt_ability_ready,{player_color}{player_hero_name}^*: ^o{ability}{shortcut}^* is ready
+ping_ext_alt_buyback_info_enoughgold,{player_color}{player_hero_name}^*: I have ^y{param}^* gold and can buy back ({remaining_buybacks} remaining)
+ping_ext_alt_buyback_info_shortofgold,{player_color}{player_hero_name}^*: I have ^y{param}^* gold and need {remaining_gold} additional gold to buy back
+ping_ext_alt_buyback_info_zeroleft,{player_color}{player_hero_name}^*: I have ^y{param}^* gold and am out of buy backs
+ping_ext_alt_latency,{player_color}{player_hero_name}^*: My ping is ^y{latency}^*ms
+ping_ext_alt_framerate,{player_color}{player_hero_name}^*: My FPS is ^y{framerate}^*
+teamkillstreak,The {team} are ^rOWNING!!!^*
+teamwipe,{team} have been completely wiped out!!!
+teamkill,{killer} pwned {victim}'s head!! ^y{gold}g^* is split.
+neutralkill,{victim} has been killed by Neutral Creeps.
+kongorkill,{victim} has been killed by Kongor.
+bosskill,{victim} has been killed by {boss}.
+suicide,{victim} has killed themselves!
+kill,{victim} has died.
+teamkilltower,{killer} has destroyed a {ping_tile} tower.\n{killer} are awarded ^y{gold}g^*
+teamdenytower,{denier} has ^444denied^* a {ping_tile} tower!
+killkongor,{killer} has slain Kongor. {reward} are awarded ^y{gold}g^*
+teamkillkongor,{killer} has slain Kongor. {killer} are awarded ^y{gold}g^*
+killboss,{killer} has slain {boss}. {reward} are awarded ^y{gold}g^*
+teamkillboss,{killer} has slain {boss}. {killer} are awarded ^y{gold}g^*
+share0,{player} is no longer sharing control of their units with you.
+share1,{player} is now sharing control of their units with you.
+share2,{player} is now sharing control of their courier with you.
+share3,{player} is now sharing control of their units with you.
+powerup,{player} has picked up ^r{powerup}^*
+powerup_bottle,{player} has bottled ^r{powerup}^*
+powerup_bottle_use,{player} has used ^r{powerup}^*
+creepupgrade,The creeps have grown stronger...
+megacreeps,All {victim}'s barracks destroyed. The {killer} now have Mega Creeps.
+smackdown,{victim} has been SMACKED DOWN by {killer}!
+humiliation,{killer} just HUMILIATED {victim}!
+rival,{killer} is completely ^rOWNING^* {victim}!
+payback,{killer} has gained ^rPAYBACK^* against {victim}!
+client_connected,{player_color}{player}^* has connected.
+client_reconnected,{player_color}{player}^* has reconnected. (Remaining disconnection time: {time})
+client_disconnected,{player_color}{player}^* disconnected.
+client_timedout,{player_color}{player}^* has timed out.
+client_terminated,{player_color}{player}^* has been terminated. Their hero has been removed & assets given to their team.
+client_connected_mentor,{player_color}{player}^* has connected to mentor you.
+client_connected_spec,{player_color}{player}^* has connected to spectate {spec_color}{spec_player}^*.
+hero_pick,{player_color}{player}^* has selected ^885{hero_name}^*.
+hero_pick_blind,{player_color}{player}^* has selected a hero.
+hero_random,{player_color}{player}^* has randomed ^885{hero_name}^*.
+hero_random_blind,{player_color}{player}^* has randomed a hero.
+hero_repick,{player_color}{player}^* is repicking. ^885{hero_name}^* is now available.
+hero_repick_blind,{player_color}{player}^* is repicking.
+hero_swap,{player_color}{player}^* swapped heroes with {player2_color}{player2}^*.
+hero_swap_request,{player_color}{player}^* has offered to swap heroes with you.
+hero_ban,{player_color}{player}^* has ^rbanned^* ^885{hero_name}^*.
+hero_ban_random,Fate has ^rbanned^* ^885{hero_name}^*.
+hero_lock,{player_color}{player}^* has ^ylocked^* ^885{hero_name}^*.
+hero_shuffle_pick,{player_color}{player}^* has ^pshuffle picked^* ^885{hero_name}^*.
+hero_lock_random,Fate has ^ylocked^* ^885{hero_name}^*.
+hero_hidden_ban,{team_color}{team} ^*has ^rbanned^*: ^885{hero}^*.
+hero_vote_ban,The following heroes have been banned this game: ^885{hero}^*.
+hero_picked_both_teams,Hero Picked by Both Teams! {player_color}{player}^* has received the hero ^885{hero_name}^* 15 seconds added to phase time!
+random_filter_message,{player_color}{player}^* has randomed{filters}{favorites} with {num_of_heroes} heroes to random from.
+using_favorites,^* using a ^558favorites list^*
+using_filters,^* with filters ^558{filters}^*
+game_phase_banning,Begin ^rBanning Phase^*.
+game_phase_picking,Begin ^rPicking Phase^*.
+game_phase_lock,Begin ^rLocking Phase^*.
+game_phase_lock_pick,Begin ^rLock Pick Phase^*.
+game_phase_hero_hidden_ban,Begin ^rHidden Banning Phase^*.
+game_phase_hero_ban,Begin ^rHero Banning Phase^*.
+game_phase_vote_blind_ban,Begin ^rVote Banning Phase^*.
+game_phase_shuffle_pick,Begin ^rShuffle Pick Phase^*: ^ySelect two heroes to add their abilities to the pool^*.
+game_turn_ban,It is now {player_color}{player}^*'s turn to ^rban^*.
+game_turn_picking,It is now {player_color}{player}^*'s turn to ^rpick^*.
+player_ready,{player_color}{player}^* is ^gready^*.
+player_unready,{player_color}{player}^* is ^rno longer ready^*.
+player_boughtback,{player_color}{player}^* has bought back
+player_boughtback2,{player_color}{player}^* has bought back. {buybacks_used}/{buybacks_remaining} buybacks used
+error_all_buybacks_used,You have no buybacks remaining.
+error_target_invulnerable,Target is invulnerable.
+error_not_ready,{tool} is not ready yet.
+error_low_mana,Not enough mana to use {tool}.
+chat_all,{team_color}{player} ({hero}): ^*{message}
+chat_team,{color}{player} ({hero}): ^*{message}
+vote_called_concede,{player_color}{player}^* has called a vote for {team_color}{team}^* to concede
+vote_called_remake,{player_color}{player}^* has called a vote to remake the match
+vote_called_kick,{player_color}{player}^* has called a vote to kick {target_color}{target}^*
+vote_passed,Vote passed
+vote_failed,Vote failed
+team_concede,{color}{team}^* has conceded the match
+afk_message,^199{player}^* is AFK
+afk_message_self,You are now AFK
+afk_return_self,You are no longer AFK
